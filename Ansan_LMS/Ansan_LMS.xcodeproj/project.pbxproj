@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F5C6A44E2DA8EDF000D1415E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C6A4382DA8EDEF00D1415E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C6A43F2DA8EDEF00D1415E;
+			remoteInfo = Ansan_LMS;
+		};
+		F5C6A4582DA8EDF000D1415E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C6A4382DA8EDEF00D1415E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C6A43F2DA8EDEF00D1415E;
+			remoteInfo = Ansan_LMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5C6A4402DA8EDEF00D1415E /* Ansan_LMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ansan_LMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C6A44D2DA8EDF000D1415E /* Ansan_LMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ansan_LMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C6A4572DA8EDF000D1415E /* Ansan_LMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ansan_LMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F5C6A4422DA8EDEF00D1415E /* Ansan_LMS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ansan_LMS;
+			sourceTree = "<group>";
+		};
+		F5C6A4502DA8EDF000D1415E /* Ansan_LMSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ansan_LMSTests;
+			sourceTree = "<group>";
+		};
+		F5C6A45A2DA8EDF000D1415E /* Ansan_LMSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ansan_LMSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C6A43D2DA8EDEF00D1415E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A44A2DA8EDF000D1415E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A4542DA8EDF000D1415E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C6A4372DA8EDEF00D1415E = {
+			isa = PBXGroup;
+			children = (
+				F5C6A4422DA8EDEF00D1415E /* Ansan_LMS */,
+				F5C6A4502DA8EDF000D1415E /* Ansan_LMSTests */,
+				F5C6A45A2DA8EDF000D1415E /* Ansan_LMSUITests */,
+				F5C6A4412DA8EDEF00D1415E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C6A4412DA8EDEF00D1415E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6A4402DA8EDEF00D1415E /* Ansan_LMS.app */,
+				F5C6A44D2DA8EDF000D1415E /* Ansan_LMSTests.xctest */,
+				F5C6A4572DA8EDF000D1415E /* Ansan_LMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C6A43F2DA8EDEF00D1415E /* Ansan_LMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6A4612DA8EDF000D1415E /* Build configuration list for PBXNativeTarget "Ansan_LMS" */;
+			buildPhases = (
+				F5C6A43C2DA8EDEF00D1415E /* Sources */,
+				F5C6A43D2DA8EDEF00D1415E /* Frameworks */,
+				F5C6A43E2DA8EDEF00D1415E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F5C6A4422DA8EDEF00D1415E /* Ansan_LMS */,
+			);
+			name = Ansan_LMS;
+			packageProductDependencies = (
+			);
+			productName = Ansan_LMS;
+			productReference = F5C6A4402DA8EDEF00D1415E /* Ansan_LMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C6A44C2DA8EDF000D1415E /* Ansan_LMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6A4642DA8EDF000D1415E /* Build configuration list for PBXNativeTarget "Ansan_LMSTests" */;
+			buildPhases = (
+				F5C6A4492DA8EDF000D1415E /* Sources */,
+				F5C6A44A2DA8EDF000D1415E /* Frameworks */,
+				F5C6A44B2DA8EDF000D1415E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C6A44F2DA8EDF000D1415E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5C6A4502DA8EDF000D1415E /* Ansan_LMSTests */,
+			);
+			name = Ansan_LMSTests;
+			packageProductDependencies = (
+			);
+			productName = Ansan_LMSTests;
+			productReference = F5C6A44D2DA8EDF000D1415E /* Ansan_LMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5C6A4562DA8EDF000D1415E /* Ansan_LMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6A4672DA8EDF000D1415E /* Build configuration list for PBXNativeTarget "Ansan_LMSUITests" */;
+			buildPhases = (
+				F5C6A4532DA8EDF000D1415E /* Sources */,
+				F5C6A4542DA8EDF000D1415E /* Frameworks */,
+				F5C6A4552DA8EDF000D1415E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C6A4592DA8EDF000D1415E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5C6A45A2DA8EDF000D1415E /* Ansan_LMSUITests */,
+			);
+			name = Ansan_LMSUITests;
+			packageProductDependencies = (
+			);
+			productName = Ansan_LMSUITests;
+			productReference = F5C6A4572DA8EDF000D1415E /* Ansan_LMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C6A4382DA8EDEF00D1415E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F5C6A43F2DA8EDEF00D1415E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F5C6A44C2DA8EDF000D1415E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F5C6A43F2DA8EDEF00D1415E;
+					};
+					F5C6A4562DA8EDF000D1415E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F5C6A43F2DA8EDEF00D1415E;
+					};
+				};
+			};
+			buildConfigurationList = F5C6A43B2DA8EDEF00D1415E /* Build configuration list for PBXProject "Ansan_LMS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C6A4372DA8EDEF00D1415E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F5C6A4412DA8EDEF00D1415E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C6A43F2DA8EDEF00D1415E /* Ansan_LMS */,
+				F5C6A44C2DA8EDF000D1415E /* Ansan_LMSTests */,
+				F5C6A4562DA8EDF000D1415E /* Ansan_LMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C6A43E2DA8EDEF00D1415E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A44B2DA8EDF000D1415E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A4552DA8EDF000D1415E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C6A43C2DA8EDEF00D1415E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A4492DA8EDF000D1415E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A4532DA8EDF000D1415E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C6A44F2DA8EDF000D1415E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C6A43F2DA8EDEF00D1415E /* Ansan_LMS */;
+			targetProxy = F5C6A44E2DA8EDF000D1415E /* PBXContainerItemProxy */;
+		};
+		F5C6A4592DA8EDF000D1415E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C6A43F2DA8EDEF00D1415E /* Ansan_LMS */;
+			targetProxy = F5C6A4582DA8EDF000D1415E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5C6A45F2DA8EDF000D1415E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 73362QXDJY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C6A4602DA8EDF000D1415E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 73362QXDJY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C6A4622DA8EDF000D1415E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73362QXDJY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LMS.Ansan-LMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5C6A4632DA8EDF000D1415E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73362QXDJY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LMS.Ansan-LMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5C6A4652DA8EDF000D1415E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73362QXDJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LMS.Ansan-LMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ansan_LMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ansan_LMS";
+			};
+			name = Debug;
+		};
+		F5C6A4662DA8EDF000D1415E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73362QXDJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LMS.Ansan-LMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ansan_LMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ansan_LMS";
+			};
+			name = Release;
+		};
+		F5C6A4682DA8EDF000D1415E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73362QXDJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LMS.Ansan-LMSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ansan_LMS;
+			};
+			name = Debug;
+		};
+		F5C6A4692DA8EDF000D1415E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73362QXDJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LMS.Ansan-LMSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ansan_LMS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C6A43B2DA8EDEF00D1415E /* Build configuration list for PBXProject "Ansan_LMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6A45F2DA8EDF000D1415E /* Debug */,
+				F5C6A4602DA8EDF000D1415E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6A4612DA8EDF000D1415E /* Build configuration list for PBXNativeTarget "Ansan_LMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6A4622DA8EDF000D1415E /* Debug */,
+				F5C6A4632DA8EDF000D1415E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6A4642DA8EDF000D1415E /* Build configuration list for PBXNativeTarget "Ansan_LMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6A4652DA8EDF000D1415E /* Debug */,
+				F5C6A4662DA8EDF000D1415E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6A4672DA8EDF000D1415E /* Build configuration list for PBXNativeTarget "Ansan_LMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6A4682DA8EDF000D1415E /* Debug */,
+				F5C6A4692DA8EDF000D1415E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C6A4382DA8EDEF00D1415E /* Project object */;
+}
